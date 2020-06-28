@@ -1,0 +1,48 @@
+body {
+  padding: 2% 0 0 0;
+  font-family: 'Microsoft yahei', Tahoma, Verdana, Arial, sans-serif;
+}
+#content {
+  width: 74%;
+  margin-left: 13%;
+}
+img {
+  max-width: 100%;
+}
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.plus, .reduce {
+  width: 1.8em;
+  height: 1.8em;
+  vertical-align: -0.55em;
+  fill: rgb(92, 92, 92);
+  margin-right: 8px;
+}
+.reduce{
+  display: none;
+}
+h2 {
+  cursor: pointer;
+  color: #1570a6;
+  font-weight: normal;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.ml {
+  margin-left: 50px;
+}
+@media(max-width: 1012px) {
+  body {
+    padding: 2% 20px 0;
+  }
+  #content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
