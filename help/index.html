@@ -27,7 +27,7 @@
         function handleClick(){
           $('h2').click(function(e){
             var el = $(e.target);
-            if(el.hasClass('icon')) el = el.parent();
+            if(e.target.tagName != 'h2') el = el.parents('h2');
             // 控制同一时间只展开一个 begin
             if(el.find('.reduce').is(":hidden")){
               $('#content').children().not('h2, hr').hide();
